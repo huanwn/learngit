@@ -1,3 +1,10 @@
-Cfdnjxfymx
-阿哈哈哈哈哈哈
-3333
+版本回退
+git reset --hard commit_id
+git reset --hard HEAD^
+撤销修改
+1. 当想直接丢弃工作区的修改时，用 git checkout -- file
+2. 当想丢弃暂存区的修改时，用 git reset HEAD file;git checkout -- file
+3. 当已经commit了，回退到上一个版本
+删除文件
+git rm file
+git commit -m ""
