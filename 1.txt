@@ -8,3 +8,16 @@ git reset --hard HEAD^
 删除文件
 git rm file
 git commit -m ""
+远程库
+1. 关联远程库 git remote add origin ....
+2. 使用命令git push -u origin master 第一次推送master分支的所有内容
+3. 此后每次本地提交后，git push origin master推送最新修改
+4. git clone  .... 将远程库克隆到本地库
+分支操作
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name> 或者 git switch <name>
+创建+切换分支：git checkout -b <name> 或者 git switch -c <name>
+合并某分支到当前分支：git merge <name>
+2
+
